@@ -21,9 +21,8 @@ let package = Package(
         .target(
             name: "MyLibrary",
             dependencies: [],
-            resources: [
-                    .copy("foo.txt")
-                ]
+            sources: [
+                "foo.txt",
             ]
         ),
         .testTarget(
